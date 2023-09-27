@@ -10,8 +10,4 @@ export class LoginPageComponent {
 
   constructor(public afAuth: AngularFireAuth){}
 
-  ngOnInit(){
-    
-  }
-
 }
