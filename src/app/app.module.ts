@@ -16,11 +16,13 @@ import { AngularFireModule} from '@angular/fire/compat'
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 
+// import { BoardDialogComponent } from './kanban/dialogs/board-dialog.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent
-  ],
+    HomePageComponent  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
